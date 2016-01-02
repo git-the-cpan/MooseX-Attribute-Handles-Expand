@@ -22,10 +22,10 @@ name: MooseX-Attribute-Handles-Expand
 provides:
   Moose::Meta::Attribute::Custom::Trait::Handles::Expand:
     file: lib/MooseX/Attribute/Handles/Expand.pm
-    version: v0.0.1
+    version: v0.0.2
   MooseX::Attribute::Handles::Expand:
     file: lib/MooseX/Attribute/Handles/Expand.pm
-    version: v0.0.1
+    version: v0.0.2
 requires:
   List::Util: '0'
   Moose::Role: '0'
@@ -35,7 +35,7 @@ resources:
   bugtracker: https://github.com/yanick/MooseX-Attribute-Handles-Expand/issues
   homepage: https://github.com/yanick/MooseX-Attribute-Handles-Expand
   repository: https://github.com/yanick/MooseX-Attribute-Handles-Expand.git
-version: 0.0.1
+version: 0.0.2
 x_author_pledge:
   version: 1
 x_authority: cpan:YANICK

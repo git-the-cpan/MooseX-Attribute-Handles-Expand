@@ -52,11 +52,11 @@
    "provides" : {
       "Moose::Meta::Attribute::Custom::Trait::Handles::Expand" : {
          "file" : "lib/MooseX/Attribute/Handles/Expand.pm",
-         "version" : "v0.0.1"
+         "version" : "v0.0.2"
       },
       "MooseX::Attribute::Handles::Expand" : {
          "file" : "lib/MooseX/Attribute/Handles/Expand.pm",
-         "version" : "v0.0.1"
+         "version" : "v0.0.2"
       }
    },
    "release_status" : "stable",
@@ -71,7 +71,7 @@
          "web" : "https://github.com/yanick/MooseX-Attribute-Handles-Expand"
       }
    },
-   "version" : "0.0.1",
+   "version" : "0.0.2",
    "x_author_pledge" : {
       "version" : 1
    },

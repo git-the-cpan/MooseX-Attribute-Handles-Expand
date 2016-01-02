@@ -4,7 +4,7 @@ MooseX::Attribute::Handles::Expand - Expands '\*' in handle functions with the a
 
 # VERSION
 
-version 0.0.1
+version 0.0.2
 
 # SYNOPSIS
 
