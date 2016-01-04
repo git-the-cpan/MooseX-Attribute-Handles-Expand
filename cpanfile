@@ -1,4 +1,4 @@
-requires "List::Util" => "0";
+requires "List::Util" => "1.29";
 requires "Moose::Role" => "0";
 requires "strict" => "0";
 requires "warnings" => "0";

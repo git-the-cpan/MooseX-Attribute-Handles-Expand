@@ -1,14 +1,14 @@
 package MooseX::Attribute::Handles::Expand;
 our $AUTHORITY = 'cpan:YANICK';
 # ABSTRACT: Expands '*' in handle functions with the attribute name
-$MooseX::Attribute::Handles::Expand::VERSION = '0.0.2';
+$MooseX::Attribute::Handles::Expand::VERSION = '0.0.3';
 
 use strict;
 use warnings;
 
 use Moose::Role;
 
-use List::Util qw/ pairmap /;
+use List::Util 1.29 qw/ pairmap /;
 
 my %switcharoo;
 
@@ -43,7 +43,7 @@ after install_delegation => sub {
 {
     package Moose::Meta::Attribute::Custom::Trait::Handles::Expand;
 our $AUTHORITY = 'cpan:YANICK';
-$Moose::Meta::Attribute::Custom::Trait::Handles::Expand::VERSION = '0.0.2';
+$Moose::Meta::Attribute::Custom::Trait::Handles::Expand::VERSION = '0.0.3';
 sub register_implementation { 'MooseX::Attribute::Handles::Expand' }
 
 }
@@ -65,7 +65,7 @@ MooseX::Attribute::Handles::Expand - Expands '*' in handle functions with the at
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 SYNOPSIS
 

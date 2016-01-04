@@ -13,7 +13,7 @@ do { my $x = {
                     },
        'runtime' => {
                       'requires' => {
-                                      'List::Util' => '0',
+                                      'List::Util' => '1.29',
                                       'Moose::Role' => '0',
                                       'strict' => '0',
                                       'warnings' => '0'
